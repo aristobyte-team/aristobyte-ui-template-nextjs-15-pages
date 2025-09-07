@@ -1,0 +1,33 @@
+{
+  "name": "aristobyte-ui-template-nextjs-15-pages",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build --turbopack",
+    "start": "next start",
+    "lint": "eslint"
+  },
+  "dependencies": {
+    "@aristobyte-ui/anchor": "^1.0.44",
+    "@aristobyte-ui/button": "^1.0.44",
+    "@aristobyte-ui/card": "^1.0.44",
+    "@aristobyte-ui/label": "^1.0.44",
+    "@aristobyte-ui/utils": "^1.0.44",
+    "next": "^15.5.2",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "sass": "^1.92.1"
+  },
+  "devDependencies": {
+    "@aristobyte-ui/eslint-config": "^1.0.44",
+    "@aristobyte-ui/typescript-config": "^1.0.44",
+    "@svgr/webpack": "^8.1.0",
+    "@types/node": "^22.18.1",
+    "@types/react": "^19.1.12",
+    "@types/react-dom": "^19.1.9",
+    "eslint": "^9.35.0",
+    "raw-loader": "^4.0.2",
+    "typescript": "^5.8.2"
+  }
+}
